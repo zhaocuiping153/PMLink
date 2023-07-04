@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="63px" height="63px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 130 0  L 130 130  L 0 130  Z " fill-rule="evenodd" fill="black" id="path424" />
+    <clipPath id="clip425">
+      <use xlink:href="#path424" />
+    </clipPath>
+    <defs>
+      <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#fd7c79" />
+        <stop offset="1" stop-color="#f2332f" />
+      </radialGradient>
+    </defs>
+    <g id="组_401" data-name="组 401" transform="translate(-317.5 -268.5)">
+      <circle id="椭圆_118" data-name="椭圆 118" cx="60" cy="60" r="60" transform="translate(322.5 273.5)" fill="none" stroke="#fd7c79" stroke-width="8" opacity="0.2" />
+      <path id="椭圆_118-2" data-name="椭圆 118" d="M188,389a65.074,65.074,0,0,1-65-65,5,5,0,0,1,10,0,55,55,0,1,0,55-55,5,5,0,0,1,0-10,65,65,0,0,1,0,130Z" transform="translate(194.5 9.5)" fill="url(#radial-gradient)" />
+      <text id="_75_" data-name="75%" transform="translate(382.5 343.5)" fill="#fd7c79" font-size="28" font-family="SegoeUI, Segoe UI">
+        <tspan x="-26.551" y="0">75%</tspan>
+      </text>
+    </g>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter426">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g transform="matrix(1 0 0 1 -830 -140 )">
+    <g transform="matrix(0.484615384615385 0 0 0.484615384615385 830 140 )" clip-path="url(#clip425)" filter="url(#filter426)">
+      <g id="组_401" data-name="组 401" transform="translate(-317.5 -268.5)">
+        <circle id="椭圆_118" data-name="椭圆 118" cx="60" cy="60" r="60" transform="translate(322.5 273.5)" fill="none" stroke="#fd7c79" stroke-width="8" opacity="0.2" />
+        <path id="椭圆_118-2" data-name="椭圆 118" d="M188,389a65.074,65.074,0,0,1-65-65,5,5,0,0,1,10,0,55,55,0,1,0,55-55,5,5,0,0,1,0-10,65,65,0,0,1,0,130Z" transform="translate(194.5 9.5)" fill="url(#radial-gradient)" />
+        <text id="_75_" data-name="75%" transform="translate(382.5 343.5)" fill="#fd7c79" font-size="28" font-family="SegoeUI, Segoe UI">
+          <tspan x="-26.551" y="0">75%</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>班级管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/班级管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/班级管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u28972" class="ax_default image">
+        <img id="u28972_img" class="img " src="images/班级管理/u28972.svg"/>
+        <div id="u28972_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u28973" class="ax_default label">
+        <div id="u28973_div" class=""></div>
+        <div id="u28973_text" class="text ">
+          <p style="font-size:14px;"><span>教学计划详情里的列把课程ID改为班型ID，初始化数据后这里的课程ID同步修改为对应的班型ID值。</span></p><p style="font-size:14px;"><span><br></span></p><p style="font-size:14px;"><span>导入教学计划，课程ID 改为 班型ID,导入逻辑由原来的生成课程包改为生成产品，产品类目默认为成考教育，产品类型为组合，产品班型为“基础精讲班”，产品有效期按OA报读产品对应的到期时间，价格为0，销售渠道为crm，产品状态为下架，其他按默认值赋值即可。</span></p><p style="font-size:14px;"><span>导入的时候校验 如果开课情况为开课，则必填上课学期。</span></p><p style="font-size:14px;"><span><br></span></p><p style="font-size:13px;"><span>导入的学期课程自动打包成产品，命名为 班级名称+学期；</span></p><p style="font-size:13px;"><span>将学期课程里的 课程班型 加入 产品 内（后续需要维护 产品，给学生管理开课事宜）</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span>如果同一个“机构 院校 班级名称 业务类型 学期”里只要有一个课程的开课情况为“开课”，则认为该学期已经导入开课，系统可以根据导入的学期课程自动打包成产品，并将班型加入产品内。后续再次导入同一个“机构 院校 班级名称 业务类型 学期”该维度的教学计划，不需要再次生成产品，但可以修改产品班型，但如果已经开课后有需要调整，则只能手动给学员开课。</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:14px;"><span>导入学期课程表，课程ID 改为 班型ID，导入模板增加上课形式：直播、面授，导入逻辑改为：由原来的章节改为现在班型下的直播内容或面授内容（根据上课形式来导入生成，直播或面授名称为导入的名字+第几节）。</span></p><p style="font-size:14px;"><span>授课老师对应直播或面授的授课讲师。</span></p><p style="font-size:13px;"><span>排课后对应的班型的完结状态改为已完结，完结时间是当前时间。是否已开放状态改为是。</span></p><p style="font-size:14px;"><span><br></span></p><p style="font-size:13px;"><span>启用学期课程表，系统根据上课学期来开通 教学计划详情里的该上课学期对应的班型ID即可，不需要再根据课程安排了。</span></p><p style="font-size:14px;"><span><br></span></p><p style="font-size:14px;"><span><br></span></p><p style="font-size:14px;"><span><br></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
